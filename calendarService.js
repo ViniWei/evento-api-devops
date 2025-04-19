@@ -1,4 +1,4 @@
-const urlEvents = "http://localhost:3000/calendar/id/";
+const urlEvents = "http://apicalendario:3000/calendar/id/";
 
 const getDate = async(id) => {
     const response = await fetch(urlEvents + id)
